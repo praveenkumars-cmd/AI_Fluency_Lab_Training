@@ -1,7 +1,7 @@
 """System 3: an AI agent. LLM + tools + loop."""
 import json
-from config import client, MODEL, QUESTIONS, banner
-from tools import TOOLS, TOOL_FUNCTIONS
+from Day_1_Task.config import client, MODEL, QUESTIONS, banner
+from Day_1_Task.tools import TOOLS, TOOL_FUNCTIONS
 
 SYSTEM_PROMPT = (
     "You are a college fee assistant. Never guess a fee: always use get_course_fee. "

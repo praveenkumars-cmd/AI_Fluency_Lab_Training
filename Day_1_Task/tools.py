@@ -1,6 +1,6 @@
 import ast
 import operator
-from config import COURSE_FEES
+from Day_1_Task.config import COURSE_FEES
  
 def get_course_fee(course_code: str) -> str:
     """Look up the fee for one course code."""

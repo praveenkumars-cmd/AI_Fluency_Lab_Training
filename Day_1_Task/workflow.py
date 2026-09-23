@@ -1,6 +1,6 @@
 """System 2: a rule-based workflow. Fixed if/else rules, no LLM at all."""
 import re
-from config import COURSE_FEES, QUESTIONS
+from Day_1_Task.config import COURSE_FEES, QUESTIONS
  
 def workflow(question):
     codes = re.findall(r"[A-Z]{2}\d{3}", question.upper())
